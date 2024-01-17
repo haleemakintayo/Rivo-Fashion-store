@@ -559,16 +559,16 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #fbb1{
     background-color: #f9f9f9;
-    height: 18vw;
-    width: 27vw;
+    max-height: 250px;
+    max-width: 390px;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 1vw;
 }
 #fbb2{
     background-color: #C2EFD4;
-    height: 18vw;
-    width: 27vw;
+    max-height: 250px;
+    max-width: 390px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 5px;
     padding: 1vw;
@@ -576,8 +576,8 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #fbb3{
     background-color: #f9f9f9;
-    height: 18vw;
-    width: 27vw;
+    max-height: 250px;
+    max-width: 390px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 5px;
     padding: 1vw;
@@ -593,7 +593,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 #fb p {
     color: #6F6F6F;
     font-family: Poppins;
-    font-size: .8rem;
+    font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
