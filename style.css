@@ -7,6 +7,8 @@
    
     
 }
+
+
 .landingpage{
     background: #C2EFD4;
     width: 100%;
@@ -16,12 +18,14 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding: 10px 70px;
+    /* padding: 10px 70px; */
     
 }
 
 .mid{
     display: flex;
+    align-self: center;
+    margin-left: 400px;
 
 }
 .end{
@@ -146,9 +150,9 @@ nav button:hover{
 
 h1{
     font-family: Rufina;
-    font-weight:50px ;
-    font-size: 6vw;
-    margin: 10vh;
+    /* font-weight:700 ; */
+    font-size: 50px;
+    /* margin: 100px; */
     color: #224F34;
 }
 ul li img{
@@ -190,24 +194,24 @@ margin-top: 2px;
 
 }
 
-.text{
+.teext{
     width: 50%;
 
 }
 
-.text p ,button{
+.teext p ,button{
     margin-left: 5vw;
 }
 
-.text p{
+.teext p{
     color: #267D49;
     font-family: Poppins;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    position: relative;
-    top: -9%;
+
 }
+
 
 .hea1{
     display: flex;
@@ -702,6 +706,8 @@ footer i{
 
 @media only screen and (max-width: 767px) {
 
-    
+    .mid{
+        margin: 0;
+    }
 
 }
