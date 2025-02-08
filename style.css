@@ -150,9 +150,9 @@ nav button:hover{
 
 h1{
     font-family: Rufina;
-    /* font-weight:700 ; */
-    font-size: 50px;
-    /* margin: 100px; */
+    font-weight:500;
+    /* font-size: 70px; */
+    margin: 00px;
     color: #224F34;
 }
 ul li img{
@@ -182,6 +182,10 @@ margin-top: 2px;
     
     
 }
+.fp h1{
+    font-size: 70px;
+    font-weight:500;
+}
 .box{
     height:30vw ;
     width: 100%;
@@ -196,12 +200,11 @@ margin-top: 2px;
 
 .teext{
     width: 50%;
+    padding: 100px;
 
 }
 
-.teext p ,button{
-    margin-left: 5vw;
-}
+
 
 .teext p{
     color: #267D49;
@@ -255,6 +258,7 @@ h2 {
     width: 25vw;
     background-image: url(Images/pexels-dima-valkov-6211621\ 1.png);
     background-size: cover;
+    transition: width 2s;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .pd2{
@@ -265,6 +269,7 @@ h2 {
     width: 25vw;
     background-image: url(Images/pexels-dima-valkov-6211616\ \(1\)\ 2.png);
     background-size: cover;
+    transition: width 2s;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .pd3{
@@ -274,6 +279,7 @@ h2 {
     width: 25vw;
     background-image: url(Images/pexels-dima-valkov-6503007\ 3.png);
     background-size: cover;
+    transition: width 2s;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .pd4{
@@ -283,6 +289,7 @@ h2 {
     width: 25vw;
     background-image: url(Images/elegant-woman-straw-hat-isolated\ 2.png);
     background-size: cover;
+    transition: width 2s;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .pd5{
@@ -292,6 +299,7 @@ h2 {
     width: 25vw;
     background-image: url(Images/pexels-dima-valkov-6211617\ 1.png);
     background-size: cover;
+    transition: width 2s;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .pd6{
@@ -301,6 +309,7 @@ h2 {
     width: 25vw;
     background-image: url(Images/vknivfu\ sdkvbjieurg\ kjvn\ 1.png);
     background-size: cover; 
+    transition: width 2s;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .bst{
